@@ -1,0 +1,23 @@
+.maincontent {
+  color: #ffff;
+  background: #140227;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.innercontent {
+  border-left: 1px solid #ffff;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.innercontenth4 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+}
+.innercontentp {
+  padding: 0px;
+  margin: 0px;
+  padding-right: 10px;
+}
