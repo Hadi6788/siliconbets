@@ -1,10 +1,9 @@
 .nav {
   background: black;
+  height: 100px;
+  padding-right: 20px;
 }
 
-/* .searchterm {
-  background: #6604b9;
-} */
 .searchTerm {
   width: 80%;
 
@@ -52,4 +51,12 @@
 .navbuttons {
   display: flex;
   justify-content: space-around;
+}
+
+.logo {
+  justify-content: center;
+}
+
+.logo img {
+  width: 200px;
 }

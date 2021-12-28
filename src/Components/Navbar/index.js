@@ -26,7 +26,7 @@ const Navbar = () => {
         className="nav"
         // spacing={3}
       >
-        <Grid item md={3}>
+        <Grid item container md={3} className="logo">
           <img src={logo} alt="logo" />
         </Grid>
         <Grid item container justifyContent="center" md={3}>

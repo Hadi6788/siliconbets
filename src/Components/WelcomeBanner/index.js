@@ -37,13 +37,11 @@ const WelcomeBanner = () => {
           md={6}
           justifyContent="center"
           alignItems="center"
+          className="headerimage"
         >
           <img src={header} alt="Ellipse2" />
         </Grid>
       </Grid>
-      {/* </Container> */}
-
-      {/* </Container> */}
     </>
   );
 };
