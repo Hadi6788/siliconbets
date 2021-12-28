@@ -8,3 +8,18 @@
   color: #ffff;
   padding-left: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .cardgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cardgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}

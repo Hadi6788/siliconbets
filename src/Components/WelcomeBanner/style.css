@@ -9,3 +9,10 @@
   color: aliceblue;
   padding-bottom: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .maingrid {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

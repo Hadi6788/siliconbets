@@ -9,3 +9,15 @@
   padding-right: 300px;
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .nft {
+    width: auto;
+  }
+  .nft p {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    text-align: center;
+  }
+}

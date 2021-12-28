@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import RecentlyAdded from "../../Components/RecentlyAdded";
 import data from "../../data";
 import Nft from "../../Components/Nft";
+
 const Home = () => {
   const [items, setItems] = useState(data);
 

@@ -4,7 +4,7 @@ const Card = ({ img, title, desc }) => {
   return (
     <>
       <Container>
-        <div className="card" style={{ border: "2px solid yellow" }}>
+        <div className="card">
           <img src={img} className="photo" />
 
           <div className="cardtext">

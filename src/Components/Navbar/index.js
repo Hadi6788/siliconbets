@@ -4,6 +4,7 @@ import SearchIcon from "@material-ui/icons/Search";
 // import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "../../Units/Button";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -53,7 +54,10 @@ const Navbar = () => {
           </div>
         </Grid>
         <Grid item md={2} className="navbuttons">
-          <Button purplebutton text="Create" />
+          <Link to="/bid">
+            <Button purplebutton text="Create" />
+          </Link>
+
           <Button whitebutton text="Sign In" />
         </Grid>
       </Grid>

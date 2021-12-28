@@ -8,22 +8,9 @@ import "./style.css";
 const WelcomeBanner = () => {
   return (
     <>
-      {/* <Container className="content"> */}
-      <Grid
-        container
-        className="maingrid"
-
-        // style={{ border: "2px solid red" }}
-      >
+      <Grid container className="maingrid">
         <Grid item container xs={12} md={6}>
-          <Grid
-            item
-            container
-            xs={12}
-            md={12}
-            direction="column"
-            // style={{ border: "2px solid red" }}
-          >
+          <Grid item container xs={12} md={12} direction="column">
             <div>
               <h1>Welcome to the </h1>
               <h2> Silicon Bet</h2>
