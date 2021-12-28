@@ -1,0 +1,23 @@
+.card {
+  width: 300px;
+  height: 400px;
+}
+
+.photo {
+  width: 100%;
+  height: 80%;
+}
+.cardtext {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.cardtitle {
+  padding: 0px;
+  margin: 0px;
+}
+
+.carddesc {
+  padding: 0px;
+
+  margin: 0px;
+}

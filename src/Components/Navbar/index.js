@@ -34,7 +34,6 @@ const Navbar = () => {
               type="text"
               className="searchTerm"
               placeholder="search items, collections and accounts"
-              // onChange={handleChange}
             />
             <SearchIcon className="icon" />
           </div>

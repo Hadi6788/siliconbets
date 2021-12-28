@@ -1,0 +1,10 @@
+.cardgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.recentlyadded {
+  color: #ffff;
+  padding-left: 50px;
+}

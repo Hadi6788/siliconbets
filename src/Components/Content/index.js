@@ -49,7 +49,7 @@ const Content = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <Button purplebutton text="Learn More" />
+          <Button purplebutton text="Learn More" className="learnbutton" />
         </Grid>
       </Grid>
     </>
