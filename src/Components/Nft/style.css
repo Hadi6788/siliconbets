@@ -1,4 +1,11 @@
 .nft {
   text-align: center;
   color: #ffff;
+  padding-top: 60px;
+}
+
+.nft p {
+  padding-left: 300px;
+  padding-right: 300px;
+  text-align: center;
 }
